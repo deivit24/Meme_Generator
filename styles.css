@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Candal&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Candal', sans-serif;
+}
+header {
+  background: #0f4c81;
+  padding: 20px;
+}
+header .container .row {
+  text-align: center;
+}
+header .container .row h1 {
+  color: white;
+  font-family: 'Candal', sans-serif;
+}
+header .container .row img {
+  width: 75px;
+}
+
+@media (max-width: 768px) {
+  .top-text,
+  .bottom-text {
+    color: #fff;
+    text-shadow: #000 0px 0px 6px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px !important;
+  }
+}
+.form-row {
+  margin-top: 50px;
+}
+.form-row .col-12 {
+  margin-bottom: 25px;
+}
+form button {
+  background: rgb(8, 24, 255);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.meme {
+  position: relative;
+}
+
+.top-text,
+.bottom-text {
+  color: #fff;
+  text-shadow: #000 0px 0px 6px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+}
+
+.top-text {
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.bottom-text {
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+
+/* .img-box {
+  position: relative;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 100%;
+  margin-bottom: 50px;
+} */
+.img-box img {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  width: 100%;
+
+  height: auto;
+}
+
+.img-box button {
+  padding: 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+  border: none;
+  background: rgb(172, 35, 35);
+  color: white;
+}
+.img-box button:hover {
+  padding: 0.5rem;
+  position: absolute;
+
+  border: 1px solid black;
+  background: white;
+  color: black;
+  cursor: pointer;
+}
